@@ -1,0 +1,16 @@
+/* fonts.css */
+
+/* Old Standard TT */
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+/* Merriweather */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+/* Apply fonts to elements */
+body {
+  font-family: "Old Standard TT", serif;
+}
+
+/* If you want to apply 'Merriweather' to specific elements */
+/* h1, h2, h3, p, etc. {
+  font-family: 'Merriweather', sans-serif;
+} */

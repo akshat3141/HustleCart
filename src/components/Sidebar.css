@@ -1,0 +1,29 @@
+/* Sidebar.css */
+
+.sidebar {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20%;
+  height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #f8ca00;
+  font-size: 44px; /* Double the font size on hover */
+  font-weight: bold; /* Make the text bold on hover */
+  transform: translateX(5px);
+  transition: font-size 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}

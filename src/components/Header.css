@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Merriweather&display=swap");
+
+:root {
+  --primary-color: #111111;
+  --secondary-color: #333333;
+  --highlight-color: #f8ca00;
+  --white-color: #ffffff;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  color: #fff;
+  width: 100vw;
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.company-name {
+  width: 40%;
+  padding: 0px 20px;
+}
+.company-name a {
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  color: #000000;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: "Aqua Grotesque", sans-serif; /* Use Aqua Grotesque font */
+}
+.search-group {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 12px;
+  color: black;
+  background-color: #eae3e3;
+  outline: none;
+  width: 100%;
+  border: none;
+  border-radius: 33px;
+  margin-right: 5px;
+}
+.search-bar input[type="text"]::placeholder {
+  color: #444343;
+}
+.search-bar button {
+  color: #fff;
+  border: none;
+  background-color: #e7b761;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.user-actions a {
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+.user-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  border: none;
+  border-radius: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  margin-left: 1px;
+}
